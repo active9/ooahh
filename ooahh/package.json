@@ -1,0 +1,27 @@
+{
+	"version": "0.1",
+	"name": "Ooahh",
+	"main": "app://ooahh/views/index.html",
+	"node": true,
+	"keywords": ["Ooahh","Generator"],
+	"description": "Ooahh Generator",
+	"window": {
+		"title": "Ooahh",
+		"icon": "icon.png",
+		"resizable": true,
+		"kiosk": false,
+		"show": true,
+		"toolbar": true,
+		"frame": true,
+		"position": "center",
+		"width": 800,
+		"height": 600,
+		"min_width": 220,
+		"min_height": 220
+	},
+	"webkit": {
+		"plugin": true
+	},
+	"chromium-args": "--enable-sandbox --enable-webgl --enable-accelerated-filters --enable-experimental-canvas-features --usegl=GLES2 --disable-gpu-vsync --js-flags=--harmony --enable-nacl --enable-experimental-extension-apis --force-compositing-mode --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-webgl-draft-extensions"
+
+}

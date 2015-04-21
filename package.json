@@ -1,0 +1,39 @@
+{
+  "name": "Ooahh",
+  "description": "Web Browser - Web App - Web Vehicle",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-webkit-builder": "*",
+    "stream-copy-file": "*",
+    "cli-color": "*",
+    "prompt": "*",
+    "unzip": "*",
+    "fstream": "*"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/active9/ooahh"
+  },
+  "keywords": [
+    "ooahh",
+    "web",
+    "browser",
+    "app",
+    "toolkit",
+    "cross",
+    "platform",
+    "application",
+    "node"
+  ],
+  "author": "Active 9 LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/active9/ooahh/issues"
+  },
+  "homepage": "https://github.com/active9/ooahh"
+}
