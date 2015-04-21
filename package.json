@@ -3,7 +3,7 @@
   "description": "Web Browser - Web App - Web Vehicle",
   "version": "0.0.2",
   "bin": {
-    "screencap": "./bin/ooahh"
+    "ooahh": "./bin/ooahh"
   },
   "dependencies": {
     "node-webkit-builder": "*",
