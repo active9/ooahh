@@ -1,7 +1,7 @@
 {
   "name": "ooahh",
   "description": "Web Browser - Web App - Web Vehicle",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "bin": {
     "ooahh": "./bin/ooahh"
   },
