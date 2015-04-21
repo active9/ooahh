@@ -1,7 +1,10 @@
 {
   "name": "ooahh",
   "description": "Web Browser - Web App - Web Vehicle",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "bin": {
+    "screencap": "./bin/ooahh"
+  },
   "dependencies": {
     "node-webkit-builder": "*",
     "stream-copy-file": "*",
