@@ -17,6 +17,7 @@ console.log(__dirname,path.resolve(app));
 
 	var NwBuilder = require('node-webkit-builder');
 	var options = {
+            version: '0.12.1',
 	    buildDir: '../build',
 	    cacheDir: '../cache',
 	    files: app +'/**', // use the glob format

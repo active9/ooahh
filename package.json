@@ -1,7 +1,7 @@
 {
   "name": "ooahh",
   "description": "Web Browser - Web App - Web Vehicle",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "bin": {
     "ooahh": "./bin/ooahh"
   },
@@ -32,7 +32,10 @@
     "cross",
     "platform",
     "application",
-    "node"
+    "node",
+    "nwjs",
+    "webkit",
+    "chrome"
   ],
   "author": "Active 9 LLC",
   "license": "MIT",
