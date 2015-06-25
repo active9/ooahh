@@ -15,9 +15,14 @@ console.log(__dirname,path.resolve(app));
     } else if (generate) {
 	console.log("Ooahh Build Starting On "+ app +"");
 
+	if (!fs.existsSync(path.resolve(app +"/package.json"))) {
+		console.log ("Error: Invalid Directory Specified. Aborting.");
+		process.exit(1);
+	}
+
 	var NwBuilder = require('node-webkit-builder');
 	var options = {
-            version: '0.12.1',
+            version: '0.12.2',
 	    buildDir: '../build',
 	    cacheDir: '../cache',
 	    files: app +'/**', // use the glob format
