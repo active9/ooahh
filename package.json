@@ -1,6 +1,6 @@
 {
   "name": "ooahh",
-  "description": "Web Browser - Web App - Web Vehicle",
+  "description": "Your nodeJS packages as Native Desktop Apps",
   "version": "0.1.0",
   "bin": {
     "ooahh": "./bin/ooahh"
