@@ -20,7 +20,7 @@ module.exports = function(app,init,generate) {
             process.exit(1);
         }
 
-        var NwBuilder = require('node-webkit-builder');
+        var NwBuilder = require('nw-builder');
         var options = {
             version: '0.12.3',
             buildDir: '../build',

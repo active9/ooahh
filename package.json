@@ -1,12 +1,12 @@
 {
   "name": "ooahh",
   "description": "Web Browser - Web App - Web Vehicle",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "bin": {
     "ooahh": "./bin/ooahh"
   },
   "dependencies": {
-    "node-webkit-builder": "*",
+    "nw-builder": "*",
     "stream-copy-file": "*",
     "cli-color": "*",
     "prompt": "*",
