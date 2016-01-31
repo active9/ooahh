@@ -26,7 +26,7 @@ module.exports = function(app,init,generate) {
     var NwBuilder = require('nw-builder');
     var options = {
       version: '0.12.3',
-      buildDir: './build',
+      buildDir: path.relative(app, '../build'),
       cacheDir: os.tmpdir(),
       files: app +'/**', // use the glob format
       platforms: ['linux32', 'linux64', 'osx32', 'osx64', 'win32', 'win64']
