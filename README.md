@@ -31,6 +31,20 @@ ooahh --generate ./ooahh/
 ```
 NOTE: You can port existing web sites & existing nodejs products into applications using Ooahh including those with either/both native & custom modules.
 
+# Building With .ooahh
+
+You can also build your ooahh apps by adding a .ooahh file with the following data within it in your projects main folder. For example if your app builds using: ooahh --generate /app/source adding the file /app/.ooahh and entering the following data:
+```js
+module.exports = {
+	source: 'tests',
+	cache: 'cache',
+	build: 'build'
+}
+```
+will allow you to build your application from that folder by simply typing ooahh in your
+terminal. This method allows deploying ooahh apps easily without the need for switches and
+paths sent to ooahh.
+
 # GETTING STARTED
 
 To get started head over to http://ooahh.com/documentation.html to view the latest tutorial on how to create and redistribute your Ooahh applications. The tutorial on how to use Ooahh is outside the scope of this readme.
