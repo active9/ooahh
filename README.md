@@ -5,7 +5,7 @@ Your nodeJS packages as Native Desktop Apps. [http://ooahh.com/](http://ooahh.co
 
 # Introduction
 
-Ooahh combines any nodejs code with pre built cross-platform binaries allowing instant deployment of HTML5 & Javascript based native applications on Windows, Mac, or Linux operating systems. With Ooahh any web developer can create desktop applications using only HTML, CSS, & JS. Ooahh bridges the gap between programmers and web developers. With 2d, 3d, multimedia, & headless support your creativity is the limit.
+Ooahh combines nodejs modules or code with pre built cross-platform binaries allowing instant deployment of HTML5 & Javascript based native applications on Windows, Mac, or Linux operating systems. With Ooahh any web developer can create desktop applications using only HTML, CSS, & JS. Ooahh bridges the gap between programmers and web developers. With 2d, 3d, multimedia, & headless support your creativity is the limit.
 
 # Installing
 
@@ -83,11 +83,11 @@ All x86/x64 based systems running:
 
 # TODO
 
-If you are feeling foggy and want to contribute fork Ooahh and have at it! Then create a PR for your resulting todo fix.
-
+If you are feeling froggy and want to contribute fork Ooahh and have at it! Then create a PR for your resulting todo fix.
+ 
  - Add a secondary GPL release to enable MP3/MP4 technologies.
  - Mobile Operating System support
- - Easily create an app from a website passed like > ooahh --website http://www.ooahh.com/ ./build/
+ - Easily create an app from a website passed like > ooahh --website http://www.ooahh.com/
 
 # CREDITS
 

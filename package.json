@@ -1,7 +1,7 @@
 {
   "name": "ooahh",
-  "description": "Your nodeJS packages as Native Desktop Apps",
-  "version": "0.1.5",
+  "description": "An ultra simple way to build native desktop applications",
+  "version": "0.1.6",
   "bin": {
     "ooahh": "./bin/ooahh"
   },

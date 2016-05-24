@@ -2,11 +2,12 @@ var fs = require('fs'),
   path = require('path'),
   os = require('os');
 
-module.exports = function(app,init,generate) {
+module.exports = function(app,build,init,generate) {
   app = path.resolve(app);
+  build = path.resolve(build);
   console.log('Changing Into Directory:',app);
   process.cwd(app);
-  var build = path.resolve(path.resolve(path.resolve(path.resolve(app),'../'))+'/build');
+  console.log('Building In Directory:',build);
 
   // Init
   if (init) {
